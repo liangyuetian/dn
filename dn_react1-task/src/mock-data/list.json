@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Footbal",
+        "stock": 22,
+        "price": 49.99,
+        "monetaryUnit": "$"
+    },
+    {
+        "id": 2,
+        "name": "Baseball",
+        "stock": 2,
+        "price": 9.99,
+        "monetaryUnit": "$"
+    },
+    {
+        "id": 3,
+        "name": "Basketball",
+        "stock": 0,
+        "price": 29.99,
+        "monetaryUnit": "$"
+    },
+    {
+        "id": 4,
+        "name": "iPod Touch",
+        "stock": 50,
+        "price": 99.99,
+        "monetaryUnit": "$"
+    },
+    {
+        "id": 4,
+        "name": "iPhone5",
+        "stock": 0,
+        "price": 399.99,
+        "monetaryUnit": "$"
+    },
+    {
+        "id": 4,
+        "name": "Nexus",
+        "stock": 90,
+        "price": 199.99,
+        "monetaryUnit": "$"
+    }
+]
