@@ -3,7 +3,9 @@ import React, { Component } from "react";
 export default class Search extends Component {
     constructor(props) {
         super(props);
-        this.state = {};
+        this.state = {
+            value: ""
+        };
         this.onChange = this.onChange.bind(this);
     }
     onChange(e) {

@@ -11,6 +11,8 @@ export default class Product extends Component {
             lists: [],
             listsBak: [],
             onlyStock: false,
+            search: "",
+
         };
 
         this.search = this.search.bind(this);
@@ -30,11 +32,11 @@ export default class Product extends Component {
         });
     }
     watchOnlyCheckout(val) {
-        this.state.onlyStock = val;
+        this.state.onlyStock = val ? true : false;
         this.screen();
     }
     search(val) {
-        this.state.search = val;
+        this.state.search = val || "";
         this.screen();
     }
     screen() {

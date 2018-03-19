@@ -19,7 +19,7 @@ export default class Only extends Component {
         return (
             <div>
                 <input type="checkbox"
-                    value={this.state.checkout}
+                    checked={this.state.checkout}
                     onChange={this.onChange} />
                 <span>
                     Only show prouducts in stock
